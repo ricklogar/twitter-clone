@@ -14,17 +14,22 @@
 .main--titles{
     margin: 20px 0;
     font-weight: 700;
-    width: 80%;
+    width: 90%;
     max-width: 300px;
 }
 h1.titles--title{
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     margin-bottom: 15px;
 }
 
 .main--hero{
     width: 90%;
     margin: 0 auto;
+}
+
+h2.titles--title{
+    font-size: 2.4rem;
+    margin-bottom: 15px;
 }
 
 .main--buttons{
@@ -36,8 +41,8 @@ h1.titles--title{
     padding: 10px;
     margin: 10px 0px;
     border: 0;
-    border-radius: 15px;
-    font-size: 1.8rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
     width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -53,6 +58,12 @@ h1.titles--title{
 }
 .main--button__white-blue{
     color: var(--brand-color);
+}
+.main--google__icon{
+    font-size: 1.6rem;
+}
+.main--apple__icon{
+    font-size: 1.8rem;
 }
 
 .main--division{
@@ -94,10 +105,12 @@ h1.titles--title{
 }
 .footer--list{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .footer--list li{
-    margin: 5px 10px;
+    margin: 5px 5px;
 }
 .footer--list li a{
     color: #536471;
@@ -111,6 +124,11 @@ h1.titles--title{
         width: 100vw;
         height: 90vh;
     }
+
+    .header{
+        margin-top: 60px;
+    }
+
     .main{
         display: flex;
         align-items: center;
@@ -144,7 +162,21 @@ h1.titles--title{
     }
 
     .footer{
+        font-size: 1.2rem;
         height: 10vh;
     }
 
+}
+
+@media screen and (min-width: 1920px){
+    .helper{
+        height: 95vh;
+    }
+
+    .footer{
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
