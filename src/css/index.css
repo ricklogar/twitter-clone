@@ -48,6 +48,9 @@ h2.titles--title{
     overflow: hidden;
     white-space: nowrap;
 }
+.main--button:hover{
+    cursor: pointer;
+}
 .main--button__white{
     border: 1px solid var(--gray-color);
     background: white;

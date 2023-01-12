@@ -4,20 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Log in to Twitter / Twitter</title>
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/af0bf7190a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
-        <form action="">
-            <h1>Inicia sesion en Twitter</h1>
-            <button type="button">Inicia con google</button>
-            <button type="button">Inicia con apple</button>
-            <input type="text">
-            <button>Siguiente</button>
-            <button>Olvidaste tu contrasena?</button>
+        <form action="" class="main--form">
+            <div class="main--xmark">
+                <a href="/index.html"><i class="fa-solid fa-xmark"></i></a> 
+            </div>
+            <div class="form--helper">
+                <div class="twitter">
+                    <span class="twitter--icon"><i class="fa-brands fa-twitter"></i></span>
+                </div>
+                <h1 class="main--title">Inicia sesión en Twitter</h1>
+                <button class="main--button main--button__white" type="button">
+                    <span class="main--google__icon"><i class="fa-brands fa-google"></i></span> Registrarse con Google
+                </button>
+                <button class="main--button main--button__white" type="button">
+                    <span class="main--apple__icon"><i class="fa-brands fa-apple"></i></span> Registrarse con Apple
+                </button>
+                <div class="main--division">
+                    <div></div>
+                    <span>o</span>
+                    <div></div>
+                </div>
+                <input class="main--text-box" type="text" placeholder="Télefono, correo electrónico o nombre">
+                <button class="main--button main--button__black">Siguiente</button>
+                <button class="main--button main--button__white">¿Olvidaste tu contrasena?</button>
+                <p class="main--form__text">¿No tienes una cuenta? 
+                    <a class="main--form__text-blue" href="">Registrate</a>
+                </p>
+            </div>
         </form>
-    </body>
     </main>
+</body>
 </html>
